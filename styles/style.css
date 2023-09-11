@@ -39,7 +39,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-bottom: 4px;
 }
 
 .header__logo-image {
@@ -49,7 +48,7 @@
 
 .address {
   font-size: 18px;
-  line-height: 135%;
+  line-height: 1.35;
   font-style: normal;
   white-space: nowrap;
 }
@@ -105,7 +104,7 @@
 }
 
 .line-height-extended {
-  line-height: 115%;
+  line-height: 1.15;
 }
 
 .aligned-text_center {
@@ -129,7 +128,7 @@
   font-family: Raleway, sans-serif;
   text-transform: uppercase;
   font-size: 22px;
-  line-height: 127%;
+  line-height: 1.27;
   white-space: nowrap;
   word-spacing: 18px;
 
@@ -152,7 +151,7 @@
 
   display: flex;
   padding: 12px 32px;
-  line-height: 127%;
+  line-height: 1.27;
 }
 
 .lots {
@@ -174,6 +173,7 @@
 
 .lots__card-list {
   color: white;
+  list-style: none;
   display: flex;
   flex-wrap: wrap;
   gap: 25px;
@@ -181,8 +181,8 @@
 
 .lots__card-list-item {
   min-height: 450px;
+  flex-basis: 430px;
   position: relative;
-  flex-basis: calc((100% - 2 * 25px) / 3);
   flex-grow: 1;
   flex-shrink: 0;
 }
@@ -214,7 +214,7 @@
   font-family: Raleway, sans-serif;
   font-size: 22px;
   font-weight: 700;
-  line-height: 120%;
+  line-height: 1.2;
   text-decoration: underline;
   text-transform: uppercase;
 }
@@ -223,7 +223,7 @@
   font-family: Raleway, sans-serif;
   font-size: 20px;
   font-weight: 400;
-  line-height: 120%;
+  line-height: 1.2;
 }
 
 .card_type_film {
